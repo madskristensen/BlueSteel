@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="BlueSteel.e1e706e2-05d3-4da9-8754-652cd8ab65f4" Version="1.0" Language="en-US" Publisher="madsk" />
-        <DisplayName>BlueSteel</DisplayName>
-        <Description xml:space="preserve">VSTheme project.</Description>
+        <Identity Id="BlueSteel.e1e706e2-05d3-4da9-8754-652cd8ab65f4" Version="1.0.1" Language="en-US" Publisher="madsk" />
+        <DisplayName>Blue Steel Theme</DisplayName>
+        <Description xml:space="preserve">The Blue theme from Visual Studio updated to adhere to the Fluent design principals</Description>
+        <MoreInfo>https://github.com/madskristensen/BlueSteel</MoreInfo>
+        <License>Resources\LICENSE.txt</License>
+        <Icon>Resources\Icon.png</Icon>
+        <Tags>theme</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">

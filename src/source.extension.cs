@@ -9,7 +9,7 @@ namespace BlueSteel
     {
         public const string Id = "BlueSteel.e1e706e2-05d3-4da9-8754-652cd8ab65f4";
         public const string Name = "Blue Steel Theme";
-        public const string Description = @"The Blue theme from Visual Studio updated to adhere to the Fluent design principals. Requires Visual Studio 2022 v17.9 or newer";
+        public const string Description = @"This is modified version of the original Blue theme from Visual Studio 2022 updated to adhere to the Fluent design principals. Requires Visual Studio 2022 v17.9 or newer";
         public const string Language = "en-US";
         public const string Version = "1.0.1";
         public const string Author = "Mads Kristensen";

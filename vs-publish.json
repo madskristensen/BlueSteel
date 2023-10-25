@@ -1,6 +1,6 @@
 {
   "$schema": "http://json.schemastore.org/vsix-publish",
-  "categories": [ "theme" ],
+  "categories": [ "themes" ],
   "private": true,
   "identity": {
     "internalName": "BlueSteel",

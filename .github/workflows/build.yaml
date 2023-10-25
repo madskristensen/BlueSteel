@@ -14,7 +14,7 @@ jobs:
     outputs:
       version: ${{ steps.vsix_version.outputs.version-number }}
     name: Build 
-    runs-on: windows-2022
+    runs-on: windows-latest
     env:
       Configuration: Release
       DeployExtension: False

@@ -11,6 +11,8 @@ or get the [CI build][vsixgallery].
 
 ----------------------------------------
 
+**Note!** This theme requires Visual Studio 2022 v17.9 or newer.
+
 A version of the original Blue theme shipped in Visual Studio 2022, but updated with Fluent design elements.
 
 ![Screenshot](art/screenshot.png)

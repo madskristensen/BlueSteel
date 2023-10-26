@@ -3,7 +3,7 @@
     <Metadata>
         <Identity Id="BlueSteel.e1e706e2-05d3-4da9-8754-652cd8ab65f4" Version="1.0.1" Language="en-US" Publisher="Mads Kristensen" />
         <DisplayName>Blue Steel Theme</DisplayName>
-        <Description xml:space="preserve">This is modified version of the original Blue theme from Visual Studio 2022 updated to adhere to the Fluent design principals. Requires Visual Studio 2022 v17.9 or newer</Description>
+        <Description xml:space="preserve">The original Blue theme from Visual Studio 2022 now updated to Fluent Design. Requires Visual Studio 2022 v17.9 or newer</Description>
         <MoreInfo>https://github.com/madskristensen/BlueSteel</MoreInfo>
         <License>Resources\LICENSE.txt</License>
         <Icon>Resources\Icon.png</Icon>

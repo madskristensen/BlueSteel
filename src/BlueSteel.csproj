@@ -83,4 +83,24 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />
+
+  <Target Name="PublishToMarketplace">
+    <ItemGroup>
+      <AllVersionsOfPublisher Include="$(NuGetPackageRoot)Microsoft.VSSDK.BuildTools\**\vsixpublisher.exe" />
+      <AllVsix Include="$(ProjectDir)$(OutputPath)**\*.vsix" />
+      <AllManifests Include="$(SolutionDir)**\vs-publish.json" />
+    </ItemGroup>
+    
+    <PropertyGroup>
+      <Exe>%(AllVersionsOfPublisher.Identity)</Exe>
+      <Vsix>%(AllVsix.Identity)</Vsix>
+      <Manifest>%(AllManifests.Identity)</Manifest>
+    </PropertyGroup> 
+
+    <Message Text="File: $(Exe)"/>
+    <Message Text="File: $(Vsix)"/>
+    <Message Text="File: $(Manifest)"/>
+
+    <Exec Command="$(Exe) publish -payload &quot;$(Vsix)&quot; -publishManifest &quot;$(Manifest)&quot; -personalAccessToken &quot;$(MarketplaceToken)&quot;"/>
+  </Target>
 </Project>

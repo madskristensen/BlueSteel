@@ -1,5 +1,8 @@
 # yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
 name: "Build"
+permissions:
+  actions: write
+  contents: write
 
 on:
   push:
@@ -7,22 +10,21 @@ on:
   pull_request:
     branches: [master]
   workflow_dispatch:
-    branches: [master]
-      
+
 jobs:
   build:
     outputs:
       version: ${{ steps.vsix_version.outputs.version-number }}
-    name: Build 
+    name: Build
     runs-on: windows-latest
     env:
       Configuration: Release
       DeployExtension: False
       VsixManifestPath: src\source.extension.vsixmanifest
       VsixManifestSourcePath: src\source.extension.cs
-      
+
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Setup .NET build dependencies
       uses: timheuer/bootstrap-dotnet@v1
@@ -37,12 +39,12 @@ jobs:
       with:
         manifest-file: ${{ env.VsixManifestPath }}
         vsix-token-source-file: ${{ env.VsixManifestSourcePath }}
-          
+
     - name: Build
       run: msbuild /v:m -restore /p:OutDir=\_built
 
     - name: Upload artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ github.event.repository.name }}.vsix
         path: /_built/**/*.vsix
@@ -53,17 +55,17 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Download Package artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: ${{ github.event.repository.name }}.vsix
 
-      # - name: Upload to Open VSIX
-      #   uses: timheuer/openvsixpublish@v1
-      #   with:
-      #     vsix-file: ${{ github.event.repository.name }}.vsix
+      - name: Upload to Open VSIX
+        uses: timheuer/openvsixpublish@v1
+        with:
+          vsix-file: ${{ github.event.repository.name }}.vsix
 
       - name: Publish extension to Marketplace
         if: ${{ github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[release]') }}
@@ -76,9 +78,10 @@ jobs:
       - name: Tag and release
         if: ${{ github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[release]') }}
         id: tag_release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           body: release ${{ needs.build.outputs.version }}
+          generate_release_notes: true
           tag_name: ${{ needs.build.outputs.version }}
           files: |
             **/*.vsix

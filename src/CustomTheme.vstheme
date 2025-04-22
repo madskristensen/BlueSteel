@@ -7,6 +7,9 @@
       <Color Name="SolidBackgroundFillTertiary">
         <Background Type="CT_RAW" Source="FFF7F9FD" />
       </Color>
+      <Color Name="SolidBackgroundFillQuaternary">
+        <Background Type="CT_RAW" Source="FFF7F9FD" />
+      </Color>
     </Category>
     <Category Name="ShellInternal" GUID="{5af241b7-5627-4d12-bfb1-2b67d11127d7}">
       <Color Name="EnvironmentBackground">

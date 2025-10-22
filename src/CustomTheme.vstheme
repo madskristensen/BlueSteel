@@ -16,6 +16,9 @@
 			<Color Name="SolidBackgroundFillQuaternary">
 				<Background Type="CT_RAW" Source="FFE4E8F1" />
 			</Color>
+			<Color Name="SurfaceBackgroundFillDefault">
+				<Background Type="CT_RAW" Source="FFE4E8F1" />
+			</Color>
 			<Color Name="TextFillSecondary">
 				<Background Type="CT_RAW" Source="B2000000" />
 			</Color>

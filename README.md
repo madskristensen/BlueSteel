@@ -1,4 +1,4 @@
-﻿[marketplace]: https://marketplace.visualstudio.com/items?itemName=MadsKristensen.BlueSteel
+[marketplace]: https://marketplace.visualstudio.com/items?itemName=MadsKristensen.BlueSteel
 [vsixgallery]: http://vsixgallery.com/extension/BlueSteel.e1e706e2-05d3-4da9-8754-652cd8ab65f4/
 [repo]:https://github.com/madskristensen/BlueSteel
 

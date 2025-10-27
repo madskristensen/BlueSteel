@@ -16,7 +16,7 @@ jobs:
     outputs:
       version: ${{ steps.vsix_version.outputs.version-number }}
     name: Build
-    runs-on: windows-latest
+    runs-on: windows-2022
     env:
       Configuration: Release
       DeployExtension: False
@@ -27,7 +27,7 @@ jobs:
     - uses: actions/checkout@v4
 
     - name: Setup .NET build dependencies
-      uses: timheuer/bootstrap-dotnet@v1
+      uses: timheuer/bootstrap-dotnet@v2
       with:
         nuget: 'false'
         sdk: 'false'
@@ -39,7 +39,7 @@ jobs:
       with:
         manifest-file: ${{ env.VsixManifestPath }}
         vsix-token-source-file: ${{ env.VsixManifestSourcePath }}
-
+        
     - name: Build
       run: msbuild /v:m -restore /p:OutDir=\_built
 
@@ -52,7 +52,7 @@ jobs:
   publish:
     if: ${{ github.event_name == 'push' || github.event_name == 'workflow_dispatch' }}
     needs: build
-    runs-on: windows-latest
+    runs-on: windows-2022
 
     steps:
       - uses: actions/checkout@v4
@@ -67,6 +67,17 @@ jobs:
         with:
           vsix-file: ${{ github.event.repository.name }}.vsix
 
+      - name: Tag and Release
+        if: ${{ github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[release]') }}
+        id: tag_release
+        uses: softprops/action-gh-release@v1
+        with:
+          body: Release ${{ needs.build.outputs.version }}
+          generate_release_notes: true
+          tag_name: ${{ needs.build.outputs.version }}
+          files: |
+            **/*.vsix
+
       - name: Publish extension to Marketplace
         if: ${{ github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[release]') }}
         uses: cezarypiatek/VsixPublisherAction@1.0
@@ -74,14 +85,3 @@ jobs:
           extension-file: '${{ github.event.repository.name }}.vsix'
           publish-manifest-file: 'vs-publish.json'
           personal-access-code: ${{ secrets.VS_PUBLISHER_ACCESS_TOKEN }}
-
-      - name: Tag and release
-        if: ${{ github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[release]') }}
-        id: tag_release
-        uses: softprops/action-gh-release@v2
-        with:
-          body: release ${{ needs.build.outputs.version }}
-          generate_release_notes: true
-          tag_name: ${{ needs.build.outputs.version }}
-          files: |
-            **/*.vsix

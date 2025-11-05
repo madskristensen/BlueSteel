@@ -1,16 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.9.34222.4
+# Visual Studio Version 18
+VisualStudioVersion = 18.3.11129.206 main
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueSteel", "src\BlueSteel.csproj", "{40590DC7-AA13-4416-8611-646074A6B609}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B279433B-14C2-4D1F-82BA-442002233662}"
-	ProjectSection(SolutionItems) = preProject
-		.github\workflows\build.yaml = .github\workflows\build.yaml
-		README.md = README.md
-		vs-publish.json = vs-publish.json
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

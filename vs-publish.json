@@ -8,8 +8,12 @@
   },
   "assetFiles": [
     {
-      "pathOnDisk": "art/screenshot.png",
-      "targetPath": "art/screenshot.png"
+      "pathOnDisk": "art/light.png",
+      "targetPath": "art/light.png"
+    },
+    {
+      "pathOnDisk": "art/dark.png",
+      "targetPath": "art/dark.png"
     }    
   ],
   "overview": "README.md",

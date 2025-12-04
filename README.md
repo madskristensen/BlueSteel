@@ -13,9 +13,15 @@ or get the [CI build][vsixgallery].
 
 **Note!** This theme requires Visual Studio 2026
 
-A version of the original Blue theme shipped in Visual Studio 2022, but updated with Fluent design elements.
+A version of the original Blue theme shipped in Visual Studio 2022, but updated with Fluent design elements and in two versions.
 
-![Screenshot](art/screenshot.png)
+### Blue Steel (Light)
+
+![Light](art/light.png)
+
+### Blue Steel (Dark)
+
+![Dark](art/dark.png)
 
 ## How can I help?
 If you enjoy using the extension, please give it a ★★★★★ rating on the [Visual Studio Marketplace][marketplace].

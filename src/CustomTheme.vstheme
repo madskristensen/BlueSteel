@@ -106,7 +106,7 @@
 				<Background Type="CT_RAW" Source="FFFDF6E3" />
 			</Color>
 			<Color Name="TextFillSecondary">
-				<Background Type="CT_RAW" Source="B2657B83" />
+				<Background Type="CT_RAW" Source="FF000000" />
 			</Color>
 		</Category>
 		<Category Name="ShellInternal" GUID="{5af241b7-5627-4d12-bfb1-2b67d11127d7}">

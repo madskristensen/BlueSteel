@@ -126,5 +126,35 @@
 				<Background Type="CT_RAW" Source="61FFFFFF" />
 			</Color>
 		</Category>
+
+		<Category Name="Text Editor Text Manager Items" GUID="{58e96763-1d3b-4e05-b6ba-ff7115fd0b7b}">
+			<Color Name="Plain Text">
+				<Background Type="CT_RAW" Source="FFfdf6e3" />
+			</Color>
+			<Color Name="Indicator Margin">
+				<Background Type="CT_RAW" Source="FFEEE8D5" />
+				<Foreground Type="CT_AUTOMATIC" Source="00000000" />
+			</Color>
+		</Category>
+		<Category Name="Output Window" GUID="{9973efdf-317d-431c-8bc1-5e88cbfd4f7f}">
+			<Color Name="Plain Text">
+				<Background Type="CT_RAW" Source="FFfdf6e3" />
+			</Color>
+		</Category>
+		<Category Name="Find Results" GUID="{5c48b2cb-0366-4fbf-9786-0bb37e945687}">
+			<Color Name="Plain Text">
+				<Background Type="CT_RAW" Source="FFfdf6e3" />
+			</Color>
+		</Category>
+		<Category Name="Immediate Window" GUID="{6bb65c5a-2f31-4bde-9f48-8a38dc0c63e7}">
+			<Color Name="Plain Text">
+				<Background Type="CT_RAW" Source="FFfdf6e3" />
+			</Color>
+		</Category>
+		<Category Name="Command Window" GUID="{ee1be240-4e81-4beb-8eea-54322b6b1bf5}">
+			<Color Name="Plain Text">
+				<Background Type="CT_RAW" Source="FFfdf6e3" />
+			</Color>
+		</Category>
 	</Theme>
 </Themes>

@@ -117,7 +117,7 @@
 				<Background Type="CT_RAW" Source="FF6C71C4" />
 			</Color>
 			<Color Name="EnvironmentIndicator">
-				<Background Type="CT_RAW" Source="80826EC6" />
+				<Background Type="CT_RAW" Source="806C71C4" />
 			</Color>
 			<Color Name="EnvironmentLogo">
 				<Background Type="CT_RAW" Source="FF6C71C4" />

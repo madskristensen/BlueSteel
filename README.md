@@ -15,11 +15,11 @@ or get the [CI build][vsixgallery].
 
 A version of the original Blue theme shipped in Visual Studio 2022, but updated with Fluent design elements and in two versions.
 
-### Blue Steel (Light)
+## Blue Steel (Light)
 
 ![Light](art/light.png)
 
-### Blue Steel (Dark)
+## Blue Steel (Dark)
 
 ![Dark](art/dark.png)
 

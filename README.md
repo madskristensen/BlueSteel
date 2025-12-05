@@ -23,6 +23,10 @@ A version of the original Blue theme shipped in Visual Studio 2022, but updated 
 
 ![Dark](art/dark.png)
 
+## Solarized 
+
+![Solarized](art/solarized.png)
+
 ## How can I help?
 If you enjoy using the extension, please give it a ★★★★★ rating on the [Visual Studio Marketplace][marketplace].
 

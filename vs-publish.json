@@ -14,7 +14,11 @@
     {
       "pathOnDisk": "art/dark.png",
       "targetPath": "art/dark.png"
-    }    
+    },
+    {
+      "pathOnDisk": "art/solarized.png",
+      "targetPath": "art/solarized.png"
+    }
   ],
   "overview": "README.md",
   "publisher": "MadsKristensen",

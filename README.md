@@ -27,6 +27,10 @@ A version of the original Blue theme shipped in Visual Studio 2022, but updated 
 
 ![Solarized](art/solarized.png)
 
+## Coal
+
+![Coal](art/coal.png)
+
 ## How can I help?
 If you enjoy using the extension, please give it a ★★★★★ rating on the [Visual Studio Marketplace][marketplace].
 

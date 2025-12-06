@@ -18,6 +18,10 @@
     {
       "pathOnDisk": "art/solarized.png",
       "targetPath": "art/solarized.png"
+    },
+    {
+      "pathOnDisk": "art/coal.png",
+      "targetPath": "art/coal.png"
     }
   ],
   "overview": "README.md",

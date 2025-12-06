@@ -1,0 +1,44 @@
+<Themes>
+	<Theme Name="Blue Steel (Light)" GUID="{40590dc7-aa13-4416-8611-646074a6b609}" FallbackId="{de3dbbcd-f642-433c-8353-8f1df4370aba}">
+		<Category Name="Shell" GUID="{73708ded-2d56-4aad-b8eb-73b20d3f4bff}">
+			<Color Name="AccentFillDefault">
+				<Background Type="CT_RAW" Source="FF293452" />
+			</Color>
+			<Color Name="AccentFillSecondary">
+				<Background Type="CT_RAW" Source="E5293452" />
+			</Color>
+			<Color Name="AccentFillTertiary">
+				<Background Type="CT_RAW" Source="CC293452" />
+			</Color>
+			<Color Name="SolidBackgroundFillTertiary">
+				<Background Type="CT_RAW" Source="FFE4E8F1" />
+			</Color>
+			<Color Name="SolidBackgroundFillQuaternary">
+				<Background Type="CT_RAW" Source="FFE4E8F1" />
+			</Color>
+			<Color Name="SurfaceBackgroundFillDefault">
+				<Background Type="CT_RAW" Source="FFE4E8F1" />
+			</Color>
+			<Color Name="TextFillSecondary">
+				<Background Type="CT_RAW" Source="B2000000" />
+			</Color>
+		</Category>
+		<Category Name="ShellInternal" GUID="{5af241b7-5627-4d12-bfb1-2b67d11127d7}">
+			<Color Name="EnvironmentBackground">
+				<Background Type="CT_RAW" Source="FFB9C3DC" />
+			</Color>
+			<Color Name="EnvironmentBorder">
+				<Background Type="CT_RAW" Source="FF293452" />
+			</Color>
+			<Color Name="EnvironmentIndicator">
+				<Background Type="CT_RAW" Source="80182534" />
+			</Color>
+			<Color Name="EnvironmentLogo">
+				<Background Type="CT_RAW" Source="FF293452" />
+			</Color>
+			<Color Name="EnvironmentLayeredBackground">
+				<Background Type="CT_RAW" Source="61FFFFFF" />
+			</Color>
+		</Category>
+	</Theme>
+</Themes>

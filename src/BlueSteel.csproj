@@ -45,9 +45,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="CustomTheme.vstheme">
-      <SubType>Designer</SubType>
-    </None>
+    <None Include="BlueSteelDark.vstheme" />
+    <None Include="BlueSteelLight.vstheme" />
+    <None Include="Coal.vstheme" />
+    <None Include="Solarized.vstheme" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
       <Generator>VsixManifestGenerator</Generator>

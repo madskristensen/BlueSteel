@@ -127,6 +127,15 @@
 			</Color>
 		</Category>
 
+		<Category Name="Environment" GUID="{624ed9c3-bdfd-41fa-96c3-7c824ea32e3d}">
+			<Color Name="Window">
+				<Background Type="CT_RAW" Source="FFEEE8D5" />
+			</Color>
+			<Color Name="BrandedUIBackground">
+				<Background Type="CT_RAW" Source="FFEEE8D5" />
+			</Color>
+		</Category>
+
 		<Category Name="Text Editor Text Manager Items" GUID="{58e96763-1d3b-4e05-b6ba-ff7115fd0b7b}">
 			<Color Name="Plain Text">
 				<Background Type="CT_RAW" Source="FFfdf6e3" />

@@ -23,9 +23,13 @@ A version of the original Blue theme shipped in Visual Studio 2022, but updated 
 
 ![Dark](art/dark.png)
 
-## Solarized 
+## Solarized Light
 
 ![Solarized](art/solarized.png)
+
+## Solarized Dark
+
+![Solarized Dark](art/solarized-dark.png)
 
 ## Coal
 

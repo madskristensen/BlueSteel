@@ -20,6 +20,10 @@
       "targetPath": "art/solarized.png"
     },
     {
+      "pathOnDisk": "art/solarized-dark.png",
+      "targetPath": "art/solarized-dark.png"
+    },
+    {
       "pathOnDisk": "art/coal.png",
       "targetPath": "art/coal.png"
     }

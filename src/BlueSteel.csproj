@@ -48,7 +48,8 @@
     <None Include="BlueSteelDark.vstheme" />
     <None Include="BlueSteelLight.vstheme" />
     <None Include="Coal.vstheme" />
-    <None Include="Solarized.vstheme" />
+    <None Include="SolarizedDark.vstheme" />
+    <None Include="SolarizedLight.vstheme" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
       <Generator>VsixManifestGenerator</Generator>

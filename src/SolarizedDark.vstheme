@@ -114,7 +114,6 @@
 			</Color>
 			<Color Name="Selected Text">
 				<Background Type="CT_RAW" Source="FF073642"/>
-				<!-- base02 -->
 				<Foreground Type="CT_AUTOMATIC" Source="00000000"/>
 			</Color>
 			<Color Name="Inactive Selected Text">
@@ -129,6 +128,10 @@
 			</Color>
 			<Color Name="Visible Whitespace">
 				<Foreground Type="CT_RAW" Source="FF586E75"/>
+			</Color>
+			<Color Name="Indicator Margin">
+				<Background Type="CT_RAW" Source="FF073642" />
+				<Foreground Type="CT_AUTOMATIC" Source="00000000" />
 			</Color>
 		</Category>
 

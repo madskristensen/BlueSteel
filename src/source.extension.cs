@@ -10,11 +10,11 @@ namespace BlueSteel
     {
         public const string Id = "BlueSteel.e1e706e2-05d3-4da9-8754-652cd8ab65f4";
         public const string Name = "Blue Steel Theme";
-        public const string Description = @"The original Blue theme from Visual Studio 2022 now updated to Fluent Design. Requires Visual Studio 2022 v17.9 or newer";
+        public const string Description = @"A theme pack for Visual Studio 2026 containing several light, dark, and solarized color themes";
         public const string Language = "en-US";
         public const string Version = "1.0.900";
         public const string Author = "Mads Kristensen";
-        public const string Tags = "theme";
+        public const string Tags = "theme, solarized, light, dark";
         public const bool IsPreview = false;
     }
 }

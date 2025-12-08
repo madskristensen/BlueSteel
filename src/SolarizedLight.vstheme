@@ -60,7 +60,7 @@
 		<Category Name="TreeView" GUID="{92ecf08e-8b13-4cf4-99e9-ae2692382185}">
 			<Color Name="Background">
 				<Background Type="CT_RAW" Source="FFEEE8D5" />
-				<Foreground Type="CT_RAW" Source="FFFAFAFA" />
+				<Foreground Type="CT_RAW" Source="FF000000" />
 			</Color>
 		</Category>
 
@@ -68,7 +68,6 @@
 		<Category Name="Header" GUID="{4997f547-1379-456e-b985-2f413cdfa536}">
 			<Color Name="Default">
 				<Background Type="CT_RAW" Source="61FFFFFF" />
-				<Foreground Type="CT_RAW" Source="FFFAFAFA" />
 			</Color>
 		</Category>	
 		

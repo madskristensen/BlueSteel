@@ -105,7 +105,7 @@
 
 			<!-- Selection (Solarized-friendly, subtle) -->
 			<Color Name="Selected Text">
-				<Background Type="CT_RAW" Source="FFEEE8D5"/>
+				<Background Type="CT_RAW" Source="00C0C0C0"/>
 				<Foreground Type="CT_AUTOMATIC" Source="00000000"/>
 			</Color>
 			<Color Name="Inactive Selected Text">

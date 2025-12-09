@@ -2,7 +2,7 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
         <Identity Id="BlueSteel.e1e706e2-05d3-4da9-8754-652cd8ab65f4" Version="1.0.900" Language="en-US" Publisher="Mads Kristensen" />
-        <DisplayName>Blue Steel Theme</DisplayName>
+        <DisplayName>Blue Steel Theme Pack</DisplayName>
         <Description xml:space="preserve">A theme pack for Visual Studio 2026 containing several light, dark, and solarized color themes</Description>
         <MoreInfo>https://github.com/madskristensen/BlueSteel</MoreInfo>
         <License>Resources\LICENSE.txt</License>

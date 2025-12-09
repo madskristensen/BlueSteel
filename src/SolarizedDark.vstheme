@@ -66,7 +66,7 @@
 		<Category Name="TreeView" GUID="{92ecf08e-8b13-4cf4-99e9-ae2692382185}">
 			<Color Name="Background">
 				<Background Type="CT_RAW" Source="FF073642" />
-				<Foreground Type="CT_RAW" Source="FF839496" />
+				<Foreground Type="CT_RAW" Source="FFFFFFFF" />
 			</Color>
 		</Category>
 
@@ -113,7 +113,7 @@
 				<Foreground Type="CT_RAW" Source="FF839496"/>
 			</Color>
 			<Color Name="Selected Text">
-				<Background Type="CT_RAW" Source="FF073642"/>
+				<Background Type="CT_RAW" Source="B00F6176"/>
 				<Foreground Type="CT_AUTOMATIC" Source="00000000"/>
 			</Color>
 			<Color Name="Inactive Selected Text">

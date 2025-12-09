@@ -48,6 +48,7 @@
     <None Include="BlueSteelDark.vstheme" />
     <None Include="BlueSteelLight.vstheme" />
     <None Include="Coal.vstheme" />
+    <None Include="Darkhold.vstheme" />
     <None Include="SolarizedDark.vstheme" />
     <None Include="SolarizedLight.vstheme" />
     <None Include="source.extension.vsixmanifest">

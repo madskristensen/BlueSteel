@@ -6,28 +6,32 @@
     "internalName": "BlueSteel",
     "tags": [ "theme", "color" ]
   },
-  "assetFiles": [
-    {
-      "pathOnDisk": "art/light.png",
-      "targetPath": "art/light.png"
-    },
-    {
-      "pathOnDisk": "art/dark.png",
-      "targetPath": "art/dark.png"
-    },
-    {
-      "pathOnDisk": "art/solarized.png",
-      "targetPath": "art/solarized.png"
-    },
-    {
-      "pathOnDisk": "art/solarized-dark.png",
-      "targetPath": "art/solarized-dark.png"
-    },
-    {
-      "pathOnDisk": "art/coal.png",
-      "targetPath": "art/coal.png"
-    }
-  ],
+    "assetFiles": [
+        {
+            "pathOnDisk": "art/light.png",
+            "targetPath": "art/light.png"
+        },
+        {
+            "pathOnDisk": "art/dark.png",
+            "targetPath": "art/dark.png"
+        },
+        {
+            "pathOnDisk": "art/solarized.png",
+            "targetPath": "art/solarized.png"
+        },
+        {
+            "pathOnDisk": "art/solarized-dark.png",
+            "targetPath": "art/solarized-dark.png"
+        },
+        {
+            "pathOnDisk": "art/coal.png",
+            "targetPath": "art/coal.png"
+        },
+        {
+            "pathOnDisk": "art/darkhold.png",
+            "targetPath": "art/darkhold.png"
+        }
+    ],
   "overview": "README.md",
   "publisher": "MadsKristensen",
   "repo": "https://github.com/MadsKristensen/BlueSteel"

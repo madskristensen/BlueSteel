@@ -1,6 +1,5 @@
 <Themes>
 	<Theme Name="Onyx" GUID="{8f3d2a1c-6e4b-4d9f-a7c8-5b1e9f2d4a3c}" FallbackId="{1ded0138-47ce-435e-84ef-9ec1f439b749}">
-
 		<Category Name="Shell" GUID="{73708ded-2d56-4aad-b8eb-73b20d3f4bff}">
 			<Color Name="AccentFillDefault">
 				<Background Type="CT_RAW" Source="FF007ACC"/>
@@ -143,7 +142,7 @@
 				<Foreground Type="CT_RAW" Source="FF6A9955"/>
 			</Color>
 			<Color Name="Keyword">
-				<Foreground Type="CT_RAW" Source="FF569CD6"/>
+				<Foreground Type="CT_RAW" Source="FFC586C0"/>
 			</Color>
 			<Color Name="Preprocessor Keyword">
 				<Foreground Type="CT_RAW" Source="FFC586C0"/>
@@ -161,7 +160,7 @@
 				<Foreground Type="CT_RAW" Source="FFB5CEA8"/>
 			</Color>
 			<Color Name="Literal">
-				<Foreground Type="CT_RAW" Source="FF9CDCFE"/>
+				<Foreground Type="CT_RAW" Source="FFD19A66"/>
 			</Color>
 			<Color Name="Text">
 				<Foreground Type="CT_RAW" Source="FFD4D4D4"/>
@@ -169,22 +168,22 @@
 
 			<!-- User Types -->
 			<Color Name="User Types">
-				<Foreground Type="CT_RAW" Source="FF4EC9B0"/>
+				<Foreground Type="CT_RAW" Source="FFDCDCAA"/>
 			</Color>
 			<Color Name="User Types(Value types)">
-				<Foreground Type="CT_RAW" Source="FF4EC9B0"/>
+				<Foreground Type="CT_RAW" Source="FFDCDCAA"/>
 			</Color>
 			<Color Name="User Types(Interfaces)">
-				<Foreground Type="CT_RAW" Source="FF4EC9B0"/>
+				<Foreground Type="CT_RAW" Source="FFDCDCAA"/>
 			</Color>
 			<Color Name="User Types(Delegates)">
-				<Foreground Type="CT_RAW" Source="FF4EC9B0"/>
+				<Foreground Type="CT_RAW" Source="FFDCDCAA"/>
 			</Color>
 			<Color Name="User Types(Enums)">
-				<Foreground Type="CT_RAW" Source="FF4EC9B0"/>
+				<Foreground Type="CT_RAW" Source="FFDCDCAA"/>
 			</Color>
 			<Color Name="User Types(Type parameters)">
-				<Foreground Type="CT_RAW" Source="FF4EC9B0"/>
+				<Foreground Type="CT_RAW" Source="FFDCDCAA"/>
 			</Color>
 
 			<!-- XML -->

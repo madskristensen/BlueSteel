@@ -39,6 +39,10 @@ A version of the original Blue theme shipped in Visual Studio 2022, but updated 
 
 ![Darkhold](art/darkhold.png)
 
+## Onyx
+
+![Onyx](art/onyx.png)
+
 ## How can I help?
 If you enjoy using the extension, please give it a ★★★★★ rating on the [Visual Studio Marketplace][marketplace].
 

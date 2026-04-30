@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <MinimumVisualStudioVersion>16.0</MinimumVisualStudioVersion>
@@ -50,6 +50,7 @@
     <None Include="Coal.vstheme" />
     <None Include="Darkhold.vstheme" />
     <None Include="Onyx.vstheme" />
+    <None Include="Redhold.vstheme" />
     <None Include="SolarizedDark.vstheme" />
     <None Include="SolarizedLight.vstheme" />
     <None Include="source.extension.vsixmanifest">

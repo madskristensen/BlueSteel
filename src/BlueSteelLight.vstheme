@@ -24,8 +24,29 @@
 			</Color>
 		</Category>
 		<Category Name="ShellInternal" GUID="{5af241b7-5627-4d12-bfb1-2b67d11127d7}">
+			<Color Name="EnvironmentHeader">
+				<Background Type="CT_RAW" Source="FFF5CC84" />
+			</Color>
+			<Color Name="EnvironmentTab">
+				<Background Type="CT_RAW" Source="FFF5CC84" />
+			</Color>
+			<Color Name="EnvironmentBody">
+				<Background Type="CT_RAW" Source="FF5D6B99" />
+			</Color>
+			<Color Name="EnvironmentBodyText">
+				<Background Type="CT_RAW" Source="E4FFFFFF" />
+			</Color>
 			<Color Name="EnvironmentBackground">
-				<Background Type="CT_RAW" Source="FFB9C3DC" />
+				<Background Type="CT_RAW" Source="FFCCD5F0" />
+			</Color>
+			<Color Name="EnvironmentHeaderInactive">
+				<Background Type="CT_RAW" Source="FFCCD5F0" />
+			</Color>
+			<Color Name="EnvironmentTabInactive">
+				<Background Type="CT_RAW" Source="FFCCD5F0" />
+			</Color>
+			<Color Name="StatusBarBackgroundFillRest">
+				<Background Type="CT_RAW" Source="FF40508D" />
 			</Color>
 			<Color Name="EnvironmentBorder">
 				<Background Type="CT_RAW" Source="FF293452" />

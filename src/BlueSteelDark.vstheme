@@ -25,8 +25,29 @@
 		</Category>
 
 		<Category Name="ShellInternal" GUID="{5af241b7-5627-4d12-bfb1-2b67d11127d7}">
+			<Color Name="EnvironmentHeader">
+				<Background Type="CT_RAW" Source="FF2F3D66"/>
+			</Color>
+			<Color Name="EnvironmentTab">
+				<Background Type="CT_RAW" Source="FF2F3D66"/>
+			</Color>
+			<Color Name="EnvironmentBody">
+				<Background Type="CT_RAW" Source="FF1E2438"/>
+			</Color>
+			<Color Name="EnvironmentBodyText">
+				<Background Type="CT_RAW" Source="E6FFFFFF"/>
+			</Color>
 			<Color Name="EnvironmentBackground">
-				<Background Type="CT_RAW" Source="FF6A76A3"/>
+				<Background Type="CT_RAW" Source="FF3A456B"/>
+			</Color>
+			<Color Name="EnvironmentHeaderInactive">
+				<Background Type="CT_RAW" Source="FF2A314D"/>
+			</Color>
+			<Color Name="EnvironmentTabInactive">
+				<Background Type="CT_RAW" Source="FF2A314D"/>
+			</Color>
+			<Color Name="StatusBarBackgroundFillRest">
+				<Background Type="CT_RAW" Source="FF24345F"/>
 			</Color>
 			<Color Name="EnvironmentBorder">
 				<Background Type="CT_RAW" Source="FF274184"/>
@@ -35,7 +56,7 @@
 				<Background Type="CT_RAW" Source="FF89B4F8"/>
 			</Color>
 			<Color Name="EnvironmentLogo">
-				<Background Type="CT_RAW" Source="FFc0c0c0"/>
+				<Background Type="CT_RAW" Source="FFC0C0C0"/>
 			</Color>
 			<Color Name="EnvironmentLayeredBackground">
 				<Background Type="CT_RAW" Source="95FFFFFF"/>

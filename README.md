@@ -1,6 +1,6 @@
-[marketplace]: https://marketplace.visualstudio.com/items?itemName=MadsKristensen.BlueSteel
-[vsixgallery]: http://vsixgallery.com/extension/BlueSteel.e1e706e2-05d3-4da9-8754-652cd8ab65f4/
-[repo]:https://github.com/madskristensen/BlueSteel
+[marketplace]: <https://marketplace.visualstudio.com/items?itemName=MadsKristensen.BlueSteel>
+[vsixgallery]: <http://vsixgallery.com/extension/BlueSteel.e1e706e2-05d3-4da9-8754-652cd8ab65f4/>
+[repo]:<https://github.com/madskristensen/BlueSteel>
 
 # Blue Steel - Theme pack for Visual Studio 2026
 
@@ -44,6 +44,7 @@ A version of the original Blue theme shipped in Visual Studio 2022, but updated 
 ![Onyx](art/onyx.png)
 
 ## How can I help?
+
 If you enjoy using the extension, please give it a ★★★★★ rating on the [Visual Studio Marketplace][marketplace].
 
 Should you encounter bugs or if you have feature requests, head on over to the [GitHub repo][repo] to open an issue if one doesn't already exist.

@@ -62,5 +62,20 @@
 				<Background Type="CT_RAW" Source="95FFFFFF"/>
 			</Color>
 		</Category>
+
+		<Category Name="Environment" GUID="{624ed9c3-bdfd-41fa-96c3-7c824ea32e3d}">
+			<Color Name="CommandBarTextActive">
+				<Foreground Type="CT_RAW" Source="FFE6E6E6"/>
+			</Color>
+			<Color Name="CommandBarTextHover">
+				<Foreground Type="CT_RAW" Source="FFFFFFFF"/>
+			</Color>
+			<Color Name="CommandBarTextInactive">
+				<Foreground Type="CT_RAW" Source="80E6E6E6"/>
+			</Color>
+			<Color Name="CommandBarMenuGlyph">
+				<Foreground Type="CT_RAW" Source="FFE6E6E6"/>
+			</Color>
+		</Category>
 	</Theme>
 </Themes>

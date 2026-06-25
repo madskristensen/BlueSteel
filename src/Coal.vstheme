@@ -77,11 +77,13 @@
 		<Category Name="Immediate Window" GUID="{6bb65c5a-2f31-4bde-9f48-8a38dc0c63e7}">
 			<Color Name="Plain Text">
 				<Background Type="CT_RAW" Source="FF2B2B2B" />
+				<Foreground Type="CT_RAW" Source="FFF1F1F1" />
 			</Color>
 		</Category>
 		<Category Name="Command Window" GUID="{ee1be240-4e81-4beb-8eea-54322b6b1bf5}">
 			<Color Name="Plain Text">
 				<Background Type="CT_RAW" Source="FF2B2B2B" />
+				<Foreground Type="CT_RAW" Source="FFF1F1F1" />
 			</Color>
 		</Category>
 	</Theme>
